@@ -1,9 +1,9 @@
 import React,{useState,useEffect} from "react";
 import CarItem from "./CarItem.jsx";
-
+import "./guards.css"
 
 function Guards  ()  {
-    const Cars = () => {
+    
         const [cars, setCars] = useState([]);
         const [search, setSearch] = useState("");
       
@@ -48,5 +48,5 @@ function Guards  ()  {
           </div>
         );
       };
-}
+
 export default Guards;
